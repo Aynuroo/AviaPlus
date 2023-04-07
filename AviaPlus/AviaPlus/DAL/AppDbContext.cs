@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AviaPlus.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace AviaPlus.DAL
 {
@@ -8,5 +9,6 @@ namespace AviaPlus.DAL
         {
 
         }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }
