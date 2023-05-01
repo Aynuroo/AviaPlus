@@ -16,7 +16,7 @@ namespace AviaPlus.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<Ticket> tickets = await  _db.Tickets.ToListAsync();
+            List<Ticket> tickets = await _db.Tickets.ToListAsync();
             return View(tickets);
         }
     }

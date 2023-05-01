@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AviaPlus.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230312183053_Init")]
+    [Migration("20230429112127_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
