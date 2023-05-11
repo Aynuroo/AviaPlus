@@ -31,14 +31,15 @@ namespace AviaPlus.Controllers
 
         #region Post
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Passenger passenger)
         {
-            //bool isExist = await _db.Passengers.AnyAsync(p => p.FullName == passenger.FullName);
-            //if (isExist)
-            //{
-            //    ModelState.AddModelError("FullName", "This service is already exist");
-            //    return View();
-            //}
+            bool isExist = await _db.Passengers.AnyAsync(p => p.SeatNumber == passenger.SeatNumber);
+            if (isExist)
+            {
+                ModelState.AddModelError("SeatNumber", "This seat number is already exist");
+                return View();
+            }
             await _db.Passengers.AddAsync(passenger);
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");
@@ -47,5 +48,105 @@ namespace AviaPlus.Controllers
 
         #endregion
 
+        #region Detail
+
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Passenger passenger = await _db.Passengers.FirstOrDefaultAsync(p => p.Id == id);
+            if (passenger == null)
+            {
+                return BadRequest();
+            }
+            return View(passenger);
+        }
+
+        #endregion
+
+        #region Update
+
+        #region Get
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Passenger dbPassenger = await _db.Passengers.FirstOrDefaultAsync(p => p.Id == id);
+            if (dbPassenger == null)
+            {
+                return BadRequest();
+            }
+            return View(dbPassenger);
+        }
+
+        #endregion
+
+        #region Post
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(int? id, Passenger passenger)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Passenger dbPassenger = await _db.Passengers.FirstOrDefaultAsync(p => p.Id == id);
+            if (dbPassenger == null)
+            {
+                return BadRequest();
+            }
+
+            bool isExist = await _db.Passengers.AnyAsync(p => p.SeatNumber == passenger.SeatNumber && p.Id!=id);
+            if (isExist)
+            {
+                ModelState.AddModelError("SeatNumber", "This seat number is already exist");
+                return View();
+            }
+
+            dbPassenger.FullName = passenger.FullName;
+            dbPassenger.SeatNumber = passenger.SeatNumber;
+            dbPassenger.PhoneNumber = passenger.PhoneNumber;
+            dbPassenger.Email = passenger.Email;
+            dbPassenger.Ticket = passenger.Ticket;
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+        #endregion
+
+        #endregion
+
+        #region Activity
+
+        public async Task<IActionResult> Activity(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Passenger dbPassenger = await _db.Passengers.FirstOrDefaultAsync(p => p.Id == id);
+            if (dbPassenger == null)
+            {
+                return BadRequest();
+            }
+            if(dbPassenger.IsDeactive)
+            {
+                dbPassenger.IsDeactive = false;
+            }
+            else
+            {
+                dbPassenger.IsDeactive = true;
+            }
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+        #endregion
     }
 }
