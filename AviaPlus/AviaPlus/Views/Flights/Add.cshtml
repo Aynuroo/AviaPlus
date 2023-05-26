@@ -1,0 +1,79 @@
+﻿@model Flight
+<div class="col-12">
+    <div class="card">
+        <form method="post">
+            <div class="card-header">
+                <h4>Add Flight</h4>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="FlightNumber">Flight Number</label>
+                    <input asp-for="FlightNumber" class="form-control">
+                    <span class="text-danger" asp-validation-for="FlightNumber"></span>
+                    @*<div class="valid-feedback">Good job!</div>*@
+                </div>
+                <div class="form-group">
+                    <label asp-for="DepartureTime">Departure Time</label>
+                    <input asp-for="DepartureTime" class="form-control">
+                    <span class="text-danger" asp-validation-for="DepartureTime"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ArrivalTime">Arrival Time</label>
+                    <input asp-for="ArrivalTime" class="form-control">
+                    <span class="text-danger" asp-validation-for="ArrivalTime"></span>
+                    @*<div class="invalid-feedback">Oh no! Email is invalid.</div>*@
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price">Price ($)</label>
+                    <input asp-for="Price" class="form-control">
+                    <span class="text-danger" asp-validation-for="Price"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Departure">Departure</label>
+                    <input asp-for="Departure" class="form-control">
+                    <span class="text-danger" asp-validation-for="Departure"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Gate">Gate</label>
+                    <input asp-for="Gate" class="form-control">
+                    <span class="text-danger" asp-validation-for="Gate"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Carousel">Carousel</label>
+                    <input asp-for="Carousel" class="form-control">
+                    <span class="text-danger" asp-validation-for="Carousel"></span>
+                </div>
+                <h3>Ticket</h3>
+                <div class="form-group">
+                    <label asp-for="Ticket.FullName">Full Name</label>
+                    <input asp-for="Ticket.FullName" class="form-control">
+                    <span class="text-danger" asp-validation-for="Ticket.FullName"></span>
+                    @*<div class="valid-feedback">Good job!</div>*@
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ticket.SeatNumber">Seat Number</label>
+                    <input asp-for="Ticket.SeatNumber" class="form-control">
+                    <span class="text-danger" asp-validation-for="Ticket.SeatNumber"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ticket.Email">Email</label>
+                    <input asp-for="Ticket.Email" class="form-control">
+                    <span class="text-danger" asp-validation-for="Ticket.Email"></span>
+                    @*<div class="invalid-feedback">Oh no! Email is invalid.</div>*@
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ticket.PhoneNumber">Phone Number</label>
+                    <input asp-for="Ticket.PhoneNumber" class="form-control">
+                    <span class="text-danger" asp-validation-for="Ticket.PhoneNumber"></span>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button class="btn btn-primary">Submit</button>
+                <a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

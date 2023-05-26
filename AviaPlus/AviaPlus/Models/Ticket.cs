@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AviaPlus.Models
 {
@@ -8,19 +7,14 @@ namespace AviaPlus.Models
     {
         public int Id { get; set; }
         [Required]
-        public string FlightNumber { get; set; }
+        public string FullName { get; set; }
         [Required]
-        public DateTime DepartureTime { get; set; }
+        public string SeatNumber { get; set; }
+        [StringLength(10)]
         [Required]
-        public DateTime ArrivalTime { get; set; }
+        public string PhoneNumber { get; set; }
         [Required]
-        public double Price { get; set; }
-        [Required]
-        public bool IsCancelled { get; set; }
-
-        [ForeignKey("Passenger")]
-        public int PassengerId { get; set; }
-
-        public Passenger Passenger { get; set; }
+        public string Email { get; set; }
+        public bool IsDeactive { get; set; }
     }
 }

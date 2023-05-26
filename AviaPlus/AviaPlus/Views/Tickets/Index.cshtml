@@ -4,16 +4,16 @@
         <div class="card">
             <div class="d-flex justify-content-between align-items-center">
                 <h5 class="card-header">Tickets</h5>
-                <a asp-action="Create" class="btn rounded-pill btn btn-primary text-white" style="margin-right:20px">Create</a>
+                @*<a asp-action="Create" class="btn rounded-pill btn btn-primary text-white" style="margin-right:20px">Create</a>*@
             </div>
             <div class="table-responsive text-nowrap">
                 <table id="myTickets" class="table">
                     <thead>
                         <tr>
-                            <th>Flight Number</th>
-                            <th>Price</th>
+                            <th>Full Name</th>
+                            <th>Seat Number</th>
+                            <th>Phone Number</th>
                             <th>Status</th>
-                            <th>Departure Time</th>
                             <th style="text-align:right">Actions</th>
                         </tr>
                     </thead>
@@ -21,32 +21,31 @@
                         @foreach (Ticket item in Model)
                         {
                             <tr>
-                                <td>@item.FlightNumber</td>
-                                <td>@item.Price</td>
+                                <td>@item.FullName</td>
+                                <td>@item.SeatNumber</td>
+                                <td>@item.PhoneNumber</td>
                                 <td>
-                                    @if (item.IsCancelled)
+                                    @if (item.IsDeactive)
                                     {
-                                        <span class="text-danger">Deactive</span>
+                                        <span class="text-danger">Passive</span>
                                     }
                                     else
                                     {
                                         <span class="text-success">Active</span>
                                     }
                                 </td>
-                                <td>@item.DepartureTime</td>
                                 <td>
                                     <div class="d-flex justify-content-end">
                                         <a asp-action="Detail" asp-route-id="@item.Id" class="btn rounded-pill btn btn-warning text-white" style="margin-right:5px">Detail</a>
                                         <a asp-action="Update" asp-route-id="@item.Id" class="btn rounded-pill btn btn-info text-white" style="margin-right:5px">Update</a>
-                                        @if (item.IsCancelled)
+                                        @*@if (item.IsDeactive)
                                         {
-                                            <a asp-action="Activity" asp-route-id="@item.Id" class="btn rounded-pill btn btn-success text-white" style="margin-right:5px;width:120px">Activate</a>
+                                            <a asp-action="Activity" asp-route-id="@item.Id" class="btn rounded-pill btn btn-success" style="margin-right:5px;width:150px">Activate</a>
                                         }
                                         else
                                         {
-                                            <a asp-action="Activity" asp-route-id="@item.Id" class="btn rounded-pill btn btn-danger text-white" style="margin-right:5px;width:120px">Deactivate</a>
-                                        }
-
+                                            <a asp-action="Activity" asp-route-id="@item.Id" class="btn rounded-pill btn btn-danger" style="margin-right:5px;width:150px">Deactivate</a>
+                                        }*@
                                     </div>
                                 </td>
                             </tr>

@@ -191,7 +191,11 @@ C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\bin\Debug\net5.0\
 C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Tickets\Index.cshtml.g.cs
-C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Passengers\Index.cshtml.g.cs
-C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Passengers\Create.cshtml.g.cs
-C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Passengers\Detail.cshtml.g.cs
-C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Passengers\Update.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Flights\Add.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Flights\Index.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Tickets\Create.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Tickets\Detail.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Tickets\Update.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Flights\Detail.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Flights\Update.cshtml.g.cs
+C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\obj\Debug\net5.0\Razor\Views\Perfumeries\Index.cshtml.g.cs

@@ -1,0 +1,24 @@
+﻿@model Flight
+<h5><b>Flight Detail</b></h5>
+<p> </p>
+<p><h7><b>Flight Number:</b> @Model.FlightNumber</h7></p>
+<p><h7><b>Departure Time:</b> @Model.DepartureTime</h7></p>
+<p><h7><b>Arrival Time:</b> @Model.ArrivalTime</h7></p>
+<p><h7><b>Departure:</b> @Model.Departure</h7></p>
+<p><h7><b>Gate:</b> @Model.Gate</h7></p>
+<p><h7><b>Carousel:</b> @Model.Carousel</h7></p>
+<p><h7><b>Price:</b> @Model.Price</h7></p>
+<p>
+    <h7>
+        <b>Status:</b> @if (Model.IsCancelled)
+            {
+                <a>Cancelled</a>
+            }
+            else
+            {
+                <a>Landed</a>
+            }
+    </h7>
+</p>
+
+<a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>

@@ -9,7 +9,8 @@ namespace AviaPlus.DAL
         {
 
         }
+        public DbSet<Flight> Flights { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
-        public DbSet<Passenger> Passengers { get; set; }
+        public DbSet<Perfumery> Perfumeries { get; set; }
     }
 }
