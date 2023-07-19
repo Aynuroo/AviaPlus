@@ -14,8 +14,8 @@
     <!-- CSS Libraries -->
     <link rel="stylesheet" href="~/assets/modules/jqvmap/dist/jqvmap.min.css">
     <link rel="stylesheet" href="~/assets/modules/summernote/summernote-bs4.css">
-    <link rel="stylesheet" href="~/assets/modules/owlcarousel2/dist/~/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="~/assets/modules/owlcarousel2/dist/~/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/assets/modules/owlcarousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/modules/owlcarousel2/dist/assets/owl.theme.default.min.css">
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="~/assets/css/style.min.css">
@@ -33,63 +33,10 @@
             <div class="navbar-bg"></div>
 
             <!-- Start app top navbar -->
-            <nav class="navbar navbar-expand-lg main-navbar">
+            <nav class="navbar navbar-expand-lg fixed-top main-navbar">
                 <form class="form-inline mr-auto">
-                    <ul class="navbar-nav mr-3">
-                        <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
-                        <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
-                    </ul>
                     <div class="search-element">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
-                        <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                        <div class="search-backdrop"></div>
-                        <div class="search-result">
-                            <div class="search-header">Histories</div>
-                            <div class="search-item">
-                                <a href="#">How to Used HTML in Laravel</a>
-                                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
-                            </div>
-                            <div class="search-item">
-                                <a href="https://themeforest.net/user/admincraft/portfolio" target="_black">Admincraft Portfolio</a>
-                                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
-                            </div>
-                            <div class="search-item">
-                                <a href="#">#CodiePie</a>
-                                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
-                            </div>
-                            <div class="search-header">Result</div>
-                            <div class="search-item">
-                                <a href="#">
-                                    <img class="mr-3 rounded" width="30" src="~/assets/img/products/product-3-50.png" alt="product">
-                                    oPhone 11 Pro
-                                </a>
-                            </div>
-                            <div class="search-item">
-                                <a href="#">
-                                    <img class="mr-3 rounded" width="30" src="~/assets/img/products/product-2-50.png" alt="product">
-                                    Drone Zx New Gen-3
-                                </a>
-                            </div>
-                            <div class="search-item">
-                                <a href="#">
-                                    <img class="mr-3 rounded" width="30" src="~/assets/img/products/product-1-50.png" alt="product">
-                                    Headphone JBL
-                                </a>
-                            </div>
-                            <div class="search-header">Projects</div>
-                            <div class="search-item">
-                                <a href="https://themeforest.net/item/epice-laravel-admin-template-for-hr-project-management/24466729" target="_black">
-                                    <div class="search-icon bg-danger text-white mr-3"><i class="fas fa-code"></i></div>
-                                    Epice Laravel - Admin Template
-                                </a>
-                            </div>
-                            <div class="search-item">
-                                <a href="https://themeforest.net/item/soccer-project-management-admin-template-ui-kit/24646866" target="_black">
-                                    <div class="search-icon bg-primary text-white mr-3"><i class="fas fa-laptop"></i></div>
-                                    Soccer - Admin Template
-                                </a>
-                            </div>
-                        </div>
+                        <input class="form-control" type="search" id="mySearchInput" placeholder="Search" aria-label="Search" data-width="250">
                     </div>
                 </form>
                 <ul class="navbar-nav navbar-right"><li class="dropdown">
@@ -127,86 +74,65 @@
                         <li>
                             <a asp-controller="Flights" asp-action="Index"><i class="fas fa-columns"></i> <span><b>Flight</b></span></a>
                         </li>
+                        <li>
+                            <a asp-controller="Tickets" asp-action="Index"><i class="fas fa-columns"></i> <span><b>Ticket</b></span></a>
+                        </li>
                         <li class="menu-header">Shopping</li>
                         <li class="dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span><b>Duty Free</b></span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="nav-link" asp-controller="Perfumeries" asp-action="Index">Perfumery</a></li>
-                                <li><a class="nav-link" href="components-chat-box.html">Cosmetics</a></li>
-                                <li><a class="nav-link" href="components-empty-state.html">Spirits</a></li>
-                                <li><a class="nav-link" href="components-gallery.html">Gourmet foods</a></li>
-                                <li><a class="nav-link" href="components-hero.html">Accessories</a></li>
+                                <li><a class="nav-link" asp-controller="Cosmetics" asp-action="Index">Cosmetics</a></li>
+                                <li><a class="nav-link" asp-controller="Spirits" asp-action="Index">Spirits</a></li>
+                                <li><a class="nav-link" asp-controller="GourmetFoods" asp-action="Index">Gourmet foods</a></li>
                                 </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span><b>Food - Beverage</b></span></a>
                             <ul class="dropdown-menu">
                                 <li class="menu-sub-header">Restaurants</li>
-                                <li><a class="nav-link" href="modules-calendar.html">Burger King</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">Popeyes</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">Subway</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">Yo! Sushi</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">Tickerdaze</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">The Gang Foods</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">Sbarro</a></li>
-                                <li><a class="nav-link" href="modules-calendar.html">Carl's Jr.</a></li>
-
+                                <li><a class="nav-link" asp-controller="Foods" asp-action="Index">Food</a></li>
                                 <li class="menu-sub-header">Coffee Shops</li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Starbucks</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Crousty Co</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Godiva</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Deli Aux Pain</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Mood up</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Via Kiosk</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Chocnette Cafe</a></li>
-                                <li><a class="nav-link" href="modules-chartjs.html">Cups&Clouds</a></li>
+                                <li><a class="nav-link" asp-controller="Beverages" asp-action="Index">Beverage</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i> <span><b>Store</b></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="gmaps-advanced-route.html">Pandora</a></li>
-                                <li><a href="gmaps-advanced-route.html">Swarovski</a></li>
-                                <li><a href="gmaps-advanced-route.html">Loro Piana</a></li>
-                                <li><a href="gmaps-advanced-route.html">Bottega Veneta</a></li>
-                                <li><a href="gmaps-advanced-route.html">Guess</a></li>
-                                <li><a href="gmaps-advanced-route.html">Zen Diamond</a></li>
-                                <li><a href="gmaps-advanced-route.html">Fendi</a></li>
-                                <li><a href="gmaps-advanced-route.html">Dior</a></li>
-                                <li><a href="gmaps-advanced-route.html">Britto</a></li>
-                                <li><a href="gmaps-advanced-route.html">Ray-Ban</a></li>
-                                <li><a href="gmaps-advanced-route.html">Levi's®</a></li>
-                                <li><a href="gmaps-advanced-route.html">Swatch</a></li>
-                                <li><a href="gmaps-advanced-route.html">Gucci</a></li>
+                                <li><a asp-controller="Jewelries" asp-action="Index">Jewelry</a></li>
+                                <li><a asp-controller="Clothes" asp-action="Index">Clothes</a></li>
                             </ul>
                         </li>
                         <li class="menu-header">Other</li>
                         <li class="dropdown">
-                            <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span><b>Service</b></span></a>
+                            <a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i> <span><b>Account</b></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="auth-forgot-password.html">Baggage Service</a></li>
-                                <li><a href="auth-login.html">Health Services</a></li>
-                                <li><a href="auth-register.html">Lost and Found Service</a></li>
-                                <li><a href="auth-reset-password.html">Luggage Locker</a></li>
-                                <li><a href="auth-reset-password.html">Napzone</a></li>
-                                <li><a href="auth-reset-password.html">Travelling with Pets</a></li>
-                                <li><a href="auth-reset-password.html">Wi-Fi</a></li>
-                                <li><a href="auth-reset-password.html">Smoking Areas</a></li>
-                                <li><a href="auth-reset-password.html">Foreign Exchange Office</a></li>
+                                @if (!User.Identity.IsAuthenticated)
+                                {
+                                    <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                                    <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                                }
+                                else
+                                {
+                                    if (User.IsInRole("Admin"))
+                                    {
+                                        <li><a asp-controller="Dashboard" asp-action="Index">@User.Identity.Name</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a>@User.Identity.Name</a></li>
+                                    }
+                                    <li><a asp-controller="Account" asp-action="LogOut">Log out</a></li>
+                                }
                             </ul>
-                        </li>
-                        <li>
-                            <a asp-controller="Tickets" asp-action="Index"><i class="fas fa-columns"></i> <span><b>Ticket</b></span></a>
                         </li>
                     </ul>
                 </aside>
             </div>
-
             <!-- Start app main Content -->
-            <div class="main-content">
+<div class="main-content">
             @RenderBody()
 </div>
-
         <!-- Start app Footer part -->
         <footer class="main-footer">
             <div class="footer-left">
@@ -228,11 +154,31 @@
 <script src="~/assets/modules/chart.min.js"></script>
 <script src="~/assets/modules/owlcarousel2/dist/owl.carousel.min.js"></script>
 <script src="~/assets/modules/summernote/summernote-bs4.js"></script>
-<script src="~/assets/modules/chocolat/dist/~/js/jquery.chocolat.min.js"></script>
+<script src="~/assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
 
 <!-- Page Specific JS File -->
 <script src="~/js/page/index.js"></script>
 @await RenderSectionAsync("Scripts",false)
+    <script>
+        $(document).on("keyup", "#mySearchInput", function () {
+            if ($("#mySearchInput").val().length > 0) {
+                $.ajax({
+                    url: "/Home/GlobalSearch/",
+                    type: "get",
+                    data: {
+                        "key": $("#mySearchInput").val()
+                    },
+                    success: function (response) {
+                        $("#mySearchList").remove()
+                        $(".search-element").append(response)
+                    }
+                });
+            }
+            else {
+                $("#mySearchList").remove()
+            }
+        });
+    </script>
 
 <!-- Template JS File -->
 <script src="~/js/scripts.js"></script>

@@ -14,6 +14,7 @@ namespace AviaPlus.Models
         [Required]
         public string PhoneNumber { get; set; }
         [Required]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         public bool IsDeactive { get; set; }
     }

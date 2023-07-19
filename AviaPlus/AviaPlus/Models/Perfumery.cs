@@ -16,6 +16,16 @@ namespace AviaPlus.Models
         [Required]
         public double Price { get; set; }
         [Required]
+        public string Volume { get; set; }
+        [Required]
+        public string Packing { get; set; }
+        [Required]
+        public string Gender { get; set; }
+        [Required]
+        public string Manufacturer { get; set; }
+        [Required]
+        public string FragrantNote { get; set; }
+        [Required]
         public string Image { get; set; }
         [Required]
         [NotMapped]

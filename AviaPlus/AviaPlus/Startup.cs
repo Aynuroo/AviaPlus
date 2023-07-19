@@ -1,7 +1,9 @@
 using AviaPlus.DAL;
+using AviaPlus.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +32,18 @@ namespace AviaPlus
             {
                 option.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
+            services.AddIdentity<AppUser, IdentityRole>(IdentityOptions =>
+            {
+                IdentityOptions.Password.RequiredLength = 8;
+                IdentityOptions.Password.RequireLowercase = true;
+                IdentityOptions.Password.RequireUppercase = true;
+                IdentityOptions.Password.RequireNonAlphanumeric = false;
+                IdentityOptions.Lockout.AllowedForNewUsers = true;
+                IdentityOptions.Lockout.MaxFailedAccessAttempts = 5;
+                IdentityOptions.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(3);
+                IdentityOptions.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._@";
+                IdentityOptions.User.RequireUniqueEmail = true;
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +63,8 @@ namespace AviaPlus
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

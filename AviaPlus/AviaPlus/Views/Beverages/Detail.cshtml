@@ -1,0 +1,48 @@
+﻿@model Beverage
+<h5><b>Beverage Detail</b></h5>
+<p> </p>
+<p>
+    <h7>
+        <b>Image:</b>
+
+        <div class="product-item">
+            <div class="product-image" style="display:flex; width:auto">
+                <img alt="image" src="~/assets/img/@Model.Image" class="img-fluid">
+            </div>
+        </div>
+
+    </h7>
+</p>
+<p><h7><b>Name:</b> @Model.Name</h7></p>
+<p><h7><b>Brand:</b> @Model.Brand</h7></p>
+<p><h7><b>Calories:</b> @Model.Calories</h7></p>
+<p><h7><b>Packing:</b> @Model.Packing</h7></p>
+<p>
+    <h7>
+        <b>Cold / Hot:</b> @if (Model.IsHot)
+        {
+            <a>Hot</a>
+        }
+        else
+        {
+            <a>Cold</a>
+        }
+    </h7>
+</p>
+<p><h7><b>Description:</b> @Model.Description</h7></p>
+<p><h7><b>Price ($):</b> @Model.Price</h7></p>
+<p><h7><b>Quantity:</b> @Model.Quantity</h7></p>
+<p>
+    <h7>
+        <b>Status:</b> @if (Model.IsCancelled)
+        {
+            <a>Exhausted</a>
+        }
+        else
+        {
+            <a>Available</a>
+        }
+    </h7>
+</p>
+
+<a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>

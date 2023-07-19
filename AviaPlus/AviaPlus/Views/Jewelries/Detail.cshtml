@@ -1,0 +1,53 @@
+﻿@model Jewelry
+<h5><b>Jewelry Detail</b></h5>
+<p> </p>
+<p>
+    <h7>
+        <b>Image:</b>
+
+        <div class="product-item">
+            <div class="product-image" style="display:flex; width:auto">
+                <img alt="image" src="~/assets/img/@Model.Image" class="img-fluid">
+            </div>
+        </div>
+
+    </h7>
+</p>
+<p><h7><b>Name:</b> @Model.Name</h7></p>
+<p><h7><b>Brand:</b> @Model.Brand</h7></p>
+<p><h7><b>Article No:</b> @Model.ArticleNo</h7></p>
+<p><h7><b>Collection:</b> @Model.Collection</h7></p>
+<p><h7><b>Color:</b> @Model.Color</h7></p>
+<p><h7><b>Minimum Length:</b> @Model.MinimumLength</h7></p>
+<p><h7><b>Maximum Length:</b> @Model.MaximumLength</h7></p>
+<p><h7><b>Width:</b> @Model.Width</h7></p>
+<p><h7><b>Material:</b> @Model.Material</h7></p>
+<p>
+    <h7>
+        <b>Man / Woman:</b> @if (Model.IsFemale)
+        {
+            <a>Woman</a>
+        }
+        else
+        {
+            <a>Woman</a>
+        }
+    </h7>
+</p>
+<p><h7><b>Price ($):</b> @Model.Price</h7></p>
+<p><h7><b>Quantity:</b> @Model.Quantity</h7></p>
+<p>
+    <h7>
+        <b>Status:</b> @if (Model.IsCancelled)
+        {
+            <a>Exhausted</a>
+        }
+        else
+        {
+            <a>Available</a>
+        }
+    </h7>
+</p>
+<p><h7><b>Description:</b> @Model.Description</h7></p>
+
+<a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>

@@ -1,0 +1,45 @@
+﻿@model List<Cosmetic>
+<div class="col-12">
+    <div class="card card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <h5 class="card-header">Cosmetics</h5>
+            <a asp-action="Add" class="btn rounded-pill btn btn-primary text-white" style="margin-right:20px">Add</a>
+        </div>
+        <div class="card-body">
+            <div class="owl-carousel owl-theme owl-loaded owl-drag" id="products-carousel">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage" style="display:flex; flex-flow: row wrap; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; width: 100%; margin-bottom: 20px">
+                        @foreach (Cosmetic item in Model)
+                        {
+                            <div class="owl-item cloned" style="width: 179.75px; margin:80px; display:flex">
+                                <div>
+                                    <div class="product-item">
+                                        <div class="product-image" style="width: 100%; height: auto; padding:20px; -webkit-box-direction: normal; position: relative; display:flex; -webkit-box-orient: horizontal; -webkit-box-align: center; align-items: center;">
+                                            <img alt="image" src="~/assets/img/@item.Image" class="img-fluid">
+                                        </div>
+                                        <div class="product-details">
+                                            <div class="product-name">@item.Name</div>
+                                            <div class="text-muted text-small">$@item.Price</div>
+                                            <div class="product-cta">
+                                                <a asp-action="Detail" asp-route-id="@item.Id" class="btn rounded-pill btn btn-dark text-white" style="margin-right:5px">Detail</a>
+                                                <a asp-action="Update" asp-route-id="@item.Id" class="btn rounded-pill btn btn-info text-white" style="margin-right:5px">Update</a>
+                                                @if (item.IsCancelled)
+                                                {
+                                                    <a asp-action="Activity" asp-route-id="@item.Id" class="btn rounded-pill btn btn-success text-white" style="margin-right:5px;width:120px">Available</a>
+                                                }
+                                                else
+                                                {
+                                                    <a asp-action="Activity" asp-route-id="@item.Id" class="btn rounded-pill btn btn-danger text-white" style="margin-right:5px;width:120px">Exhausted</a>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+﻿@model Cosmetic
+<div class="col-12">
+    <div class="card">
+        <form method="post" enctype="multipart/form-data">
+            <div class="card-header">
+                <h4>Update Cosmetics</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Photo"></label>
+                    <input accept="image/*" asp-for="Photo" class="form-control" id="basic-default-fullname">
+                    <span class="text-danger" asp-validation-for="Photo"></span>
+                </div>
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <div class="form-group">
+                        <label>Current Image</label>
+                        <div>
+                            <img src="@Url.Content("~/assets/img/" + Model.Image)" alt="Current Image" class="img-fluid" style="max-width: 200px; max-height: 200px;" />
+                        </div>
+                    </div>
+                }
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Brand">Brand</label>
+                    <input asp-for="Brand" class="form-control">
+                    <span class="text-danger" asp-validation-for="Brand"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Volume">Volume</label>
+                    <input asp-for="Volume" class="form-control">
+                    <span class="text-danger" asp-validation-for="Volume"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Packing">Packing</label>
+                    <input asp-for="Packing" class="form-control">
+                    <span class="text-danger" asp-validation-for="Packing"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Gender">Gender</label>
+                    <input asp-for="Gender" class="form-control">
+                    <span class="text-danger" asp-validation-for="Gender"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Makeup">Makeup</label>
+                    <input asp-for="Makeup" class="form-control">
+                    <span class="text-danger" asp-validation-for="Makeup"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Age">Age</label>
+                    <input asp-for="Age" class="form-control">
+                    <span class="text-danger" asp-validation-for="Age"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SkinType">Skin Type</label>
+                    <input asp-for="SkinType" class="form-control">
+                    <span class="text-danger" asp-validation-for="SkinType"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Quantity">Quantity</label>
+                    <input asp-for="Quantity" class="form-control">
+                    <span class="text-danger" asp-validation-for="Quantity"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price">Price ($)</label>
+                    <input asp-for="Price" class="form-control">
+                    <span class="text-danger" asp-validation-for="Price"></span>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button class="btn btn-primary">Submit</button>
+                <a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>
+            </div>
+        </form>
+    </div>
+</div>

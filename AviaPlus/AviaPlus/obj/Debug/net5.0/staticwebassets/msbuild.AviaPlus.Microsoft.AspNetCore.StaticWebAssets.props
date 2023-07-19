@@ -48,6 +48,646 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.min.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\004dbccf-17dd-4868-a3d4-36185fb3a129homme-day-control-deodorant-.5756.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\004dbccf-17dd-4868-a3d4-36185fb3a129homme-day-control-deodorant-.5756.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\004dbccf-17dd-4868-a3d4-36185fb3a129homme-day-control-deodorant-.5756.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\01c4bb1b-53fd-43df-a063-d1f5bf02394eproduct-placeholder.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\01c4bb1b-53fd-43df-a063-d1f5bf02394eproduct-placeholder.webp</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\01c4bb1b-53fd-43df-a063-d1f5bf02394eproduct-placeholder.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\021acfa9-17ad-4782-a273-070b338348b3ballantine-s-finest-40-whisky-twin-pack.3684.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\021acfa9-17ad-4782-a273-070b338348b3ballantine-s-finest-40-whisky-twin-pack.3684.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\021acfa9-17ad-4782-a273-070b338348b3ballantine-s-finest-40-whisky-twin-pack.3684.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\078dcf80-fc3b-4ac0-bcab-103e9a7340fffinlandia.7442.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\078dcf80-fc3b-4ac0-bcab-103e9a7340fffinlandia.7442.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\078dcf80-fc3b-4ac0-bcab-103e9a7340fffinlandia.7442.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\0a3ab615-c0d4-4b4b-b915-df96aa65942fgiorgio-armani-si.3398 (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\0a3ab615-c0d4-4b4b-b915-df96aa65942fgiorgio-armani-si.3398 (1).jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\0a3ab615-c0d4-4b4b-b915-df96aa65942fgiorgio-armani-si.3398 (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\0b466fa6-2e62-4d69-9ae2-f8b654507322yves-saint-laurent-la-nuit-de-lhomme.1935.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\0b466fa6-2e62-4d69-9ae2-f8b654507322yves-saint-laurent-la-nuit-de-lhomme.1935.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\0b466fa6-2e62-4d69-9ae2-f8b654507322yves-saint-laurent-la-nuit-de-lhomme.1935.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\11ed9645-af72-49c7-beaa-55ea42af89c5mesmera-necklace--mixed-cuts--white--rhodium-plated-swarovski-5665242.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\11ed9645-af72-49c7-beaa-55ea42af89c5mesmera-necklace--mixed-cuts--white--rhodium-plated-swarovski-5665242.avif</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\11ed9645-af72-49c7-beaa-55ea42af89c5mesmera-necklace--mixed-cuts--white--rhodium-plated-swarovski-5665242.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1346dfc7-0824-4998-9f60-90269ed0033cDC_202002_6050_SmallFrenchFries_Standing_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\1346dfc7-0824-4998-9f60-90269ed0033cDC_202002_6050_SmallFrenchFries_Standing_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1346dfc7-0824-4998-9f60-90269ed0033cDC_202002_6050_SmallFrenchFries_Standing_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\14f9c864-233c-44eb-a53b-45729d85628eScreenshot 2023-06-28 185334.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\14f9c864-233c-44eb-a53b-45729d85628eScreenshot 2023-06-28 185334.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\14f9c864-233c-44eb-a53b-45729d85628eScreenshot 2023-06-28 185334.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\17b12b1b-512c-40b4-88c5-043a59d848c1even-better-clinical-radical-dark-spot-corrector-interrupter.3468.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\17b12b1b-512c-40b4-88c5-043a59d848c1even-better-clinical-radical-dark-spot-corrector-interrupter.3468.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\17b12b1b-512c-40b4-88c5-043a59d848c1even-better-clinical-radical-dark-spot-corrector-interrupter.3468.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1beec99c-befd-45a0-97cf-e9c60c371b50sisley-bodycare-double-tenseur-gel-.0864.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\1beec99c-befd-45a0-97cf-e9c60c371b50sisley-bodycare-double-tenseur-gel-.0864.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1beec99c-befd-45a0-97cf-e9c60c371b50sisley-bodycare-double-tenseur-gel-.0864.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1ea5f493-83a5-448a-be8e-dd06530f42393443306104_6_1_1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\1ea5f493-83a5-448a-be8e-dd06530f42393443306104_6_1_1.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1ea5f493-83a5-448a-be8e-dd06530f42393443306104_6_1_1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\3eb650fd-7079-4025-92e5-e6d09eec7692DC_201906_2743_MediumIcedCaramelMacchiato_Glass_A1_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\3eb650fd-7079-4025-92e5-e6d09eec7692DC_201906_2743_MediumIcedCaramelMacchiato_Glass_A1_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\3eb650fd-7079-4025-92e5-e6d09eec7692DC_201906_2743_MediumIcedCaramelMacchiato_Glass_A1_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\3ec8651c-d41e-4e21-9bd7-354edf0fbdb7yves-saint-laurent-black-opium.1857.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\3ec8651c-d41e-4e21-9bd7-354edf0fbdb7yves-saint-laurent-black-opium.1857.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\3ec8651c-d41e-4e21-9bd7-354edf0fbdb7yves-saint-laurent-black-opium.1857.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\420803c8-a75c-43a4-835c-8cdc2a145172airlines-le-male-edts.5300.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\420803c8-a75c-43a4-835c-8cdc2a145172airlines-le-male-edts.5300.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\420803c8-a75c-43a4-835c-8cdc2a145172airlines-le-male-edts.5300.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\48955b0c-8f86-4c3d-8b51-c7a04e1743e6issey-miyake-leau-dissey.0266.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\48955b0c-8f86-4c3d-8b51-c7a04e1743e6issey-miyake-leau-dissey.0266.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\48955b0c-8f86-4c3d-8b51-c7a04e1743e6issey-miyake-leau-dissey.0266.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\50c2308d-d850-41fb-a261-97b5ebd102ebdownload.gif))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\50c2308d-d850-41fb-a261-97b5ebd102ebdownload.gif</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\50c2308d-d850-41fb-a261-97b5ebd102ebdownload.gif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\52e75618-6d3e-4339-bc7d-06ad5a12cdbdmoschino-uomo-eau-de-toilette.9832.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\52e75618-6d3e-4339-bc7d-06ad5a12cdbdmoschino-uomo-eau-de-toilette.9832.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\52e75618-6d3e-4339-bc7d-06ad5a12cdbdmoschino-uomo-eau-de-toilette.9832.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5547801c-a49d-4451-8a4e-259ae6688541calvin-klein-ck-free.1846.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\5547801c-a49d-4451-8a4e-259ae6688541calvin-klein-ck-free.1846.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5547801c-a49d-4451-8a4e-259ae6688541calvin-klein-ck-free.1846.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5576d53e-4017-4530-a2b1-cd39aecefa6cDC_201906_1212_MediumIcedCoffee_Glass_A1_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\5576d53e-4017-4530-a2b1-cd39aecefa6cDC_201906_1212_MediumIcedCoffee_Glass_A1_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5576d53e-4017-4530-a2b1-cd39aecefa6cDC_201906_1212_MediumIcedCoffee_Glass_A1_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5887d0ec-f669-415a-8b41-628cecffefe9pour-homme-75ml.4126.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\5887d0ec-f669-415a-8b41-628cecffefe9pour-homme-75ml.4126.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5887d0ec-f669-415a-8b41-628cecffefe9pour-homme-75ml.4126.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6337ab25-8e53-46a2-8cd6-79f5d864cf2c7241363833_2_6_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\6337ab25-8e53-46a2-8cd6-79f5d864cf2c7241363833_2_6_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6337ab25-8e53-46a2-8cd6-79f5d864cf2c7241363833_2_6_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6d772248-daee-4d45-8029-954ff2e24fa31301240001_2_2_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\6d772248-daee-4d45-8029-954ff2e24fa31301240001_2_2_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6d772248-daee-4d45-8029-954ff2e24fa31301240001_2_2_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6fa9f8ba-6c28-481a-99e4-3f3166aef6a7Spicy-chicken-ranch.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\6fa9f8ba-6c28-481a-99e4-3f3166aef6a7Spicy-chicken-ranch.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6fa9f8ba-6c28-481a-99e4-3f3166aef6a7Spicy-chicken-ranch.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7069110b-4d85-4637-8d1d-de6187bbb86aDC_202208_5280_10McNuggets_Stacked_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\7069110b-4d85-4637-8d1d-de6187bbb86aDC_202208_5280_10McNuggets_Stacked_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7069110b-4d85-4637-8d1d-de6187bbb86aDC_202208_5280_10McNuggets_Stacked_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\75d6742a-3314-4c91-aa76-87f165be2793jagermeister-35.6898.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\75d6742a-3314-4c91-aa76-87f165be2793jagermeister-35.6898.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\75d6742a-3314-4c91-aa76-87f165be2793jagermeister-35.6898.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7bc9d1e5-bd39-4184-8959-cb7a82513d8agiorgio-armani-si.3398.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\7bc9d1e5-bd39-4184-8959-cb7a82513d8agiorgio-armani-si.3398.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7bc9d1e5-bd39-4184-8959-cb7a82513d8agiorgio-armani-si.3398.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7de041dc-ddb4-4379-b1f8-bb25b5413220Screenshot 2023-06-28 191755.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\7de041dc-ddb4-4379-b1f8-bb25b5413220Screenshot 2023-06-28 191755.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7de041dc-ddb4-4379-b1f8-bb25b5413220Screenshot 2023-06-28 191755.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7fd8efb8-0e28-4200-bece-6458c5f2bf1cDC_201906_1318_MediumAmericano_Glass_A1_HL_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\7fd8efb8-0e28-4200-bece-6458c5f2bf1cDC_201906_1318_MediumAmericano_Glass_A1_HL_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\7fd8efb8-0e28-4200-bece-6458c5f2bf1cDC_201906_1318_MediumAmericano_Glass_A1_HL_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\804b1303-f8ce-4f77-892a-c2e008b620ca4691300800_2_6_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\804b1303-f8ce-4f77-892a-c2e008b620ca4691300800_2_6_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\804b1303-f8ce-4f77-892a-c2e008b620ca4691300800_2_6_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\8fb2b393-a454-4606-b1c1-695e1aa1ad66giorgio-armani-si.3398 (1).jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\8fb2b393-a454-4606-b1c1-695e1aa1ad66giorgio-armani-si.3398 (1).jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\8fb2b393-a454-4606-b1c1-695e1aa1ad66giorgio-armani-si.3398 (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\98e29b17-785f-45aa-8519-4769b89a2058yves-saint-laurent-vernis-a-levres-vinyl-cream.7840.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\98e29b17-785f-45aa-8519-4769b89a2058yves-saint-laurent-vernis-a-levres-vinyl-cream.7840.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\98e29b17-785f-45aa-8519-4769b89a2058yves-saint-laurent-vernis-a-levres-vinyl-cream.7840.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\9979753a-deb6-48ca-bcf6-14824912d153pleasures.0752.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\9979753a-deb6-48ca-bcf6-14824912d153pleasures.0752.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\9979753a-deb6-48ca-bcf6-14824912d153pleasures.0752.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a03a4eec-a4d0-40e5-9b1f-b192d9299f85download.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\a03a4eec-a4d0-40e5-9b1f-b192d9299f85download.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a03a4eec-a4d0-40e5-9b1f-b192d9299f85download.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a145c243-2ef9-47ee-8d75-bfadbeae7e75Screenshot 2023-06-28 185656.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\a145c243-2ef9-47ee-8d75-bfadbeae7e75Screenshot 2023-06-28 185656.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a145c243-2ef9-47ee-8d75-bfadbeae7e75Screenshot 2023-06-28 185656.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a1d5eddf-1944-4735-ad26-dcf978263152DC_202004_0334_SausageBurrito_Alt_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\a1d5eddf-1944-4735-ad26-dcf978263152DC_202004_0334_SausageBurrito_Alt_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a1d5eddf-1944-4735-ad26-dcf978263152DC_202004_0334_SausageBurrito_Alt_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a3f53916-ce00-4b18-9af4-8a91c6f111c9airlines-le-male-edts.5300.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\a3f53916-ce00-4b18-9af4-8a91c6f111c9airlines-le-male-edts.5300.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a3f53916-ce00-4b18-9af4-8a91c6f111c9airlines-le-male-edts.5300.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a7cc89da-b1a5-4fae-ae86-bf4286a201a9mini-sharing-bag.2529.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\a7cc89da-b1a5-4fae-ae86-bf4286a201a9mini-sharing-bag.2529.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\a7cc89da-b1a5-4fae-ae86-bf4286a201a9mini-sharing-bag.2529.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ab726e88-224f-49b9-bbd5-6ee0a22f76c5ginzing-ultra-hydrating-energy-boosting-cream-with-ginseng-and-coffee-0tax01.3911.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\ab726e88-224f-49b9-bbd5-6ee0a22f76c5ginzing-ultra-hydrating-energy-boosting-cream-with-ginseng-and-coffee-0tax01.3911.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ab726e88-224f-49b9-bbd5-6ee0a22f76c5ginzing-ultra-hydrating-energy-boosting-cream-with-ginseng-and-coffee-0tax01.3911.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ad4a520a-ff59-4c16-baaf-4267e6e32590kitkat-2-finger-mix-sharing-bag.1772.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\ad4a520a-ff59-4c16-baaf-4267e6e32590kitkat-2-finger-mix-sharing-bag.1772.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ad4a520a-ff59-4c16-baaf-4267e6e32590kitkat-2-finger-mix-sharing-bag.1772.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\americanexpress.png))">
       <SourceType>Package</SourceType>
       <SourceId>AviaPlus</SourceId>
@@ -160,6 +800,102 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\avatar\avatar-5.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b13dc65a-1f1e-4cf5-a090-d1adadd68f21mars-super-mixed-minis-bag-.3377.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\b13dc65a-1f1e-4cf5-a090-d1adadd68f21mars-super-mixed-minis-bag-.3377.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b13dc65a-1f1e-4cf5-a090-d1adadd68f21mars-super-mixed-minis-bag-.3377.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b148606a-d85a-42d6-bddd-940cb43ccad24639303400_2_6_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\b148606a-d85a-42d6-bddd-940cb43ccad24639303400_2_6_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b148606a-d85a-42d6-bddd-940cb43ccad24639303400_2_6_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b1c96510-2015-469b-b3ec-c864d8a63acemoschino-uomo-eau-de-toilette.9832.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\b1c96510-2015-469b-b3ec-c864d8a63acemoschino-uomo-eau-de-toilette.9832.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b1c96510-2015-469b-b3ec-c864d8a63acemoschino-uomo-eau-de-toilette.9832.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b34c5c90-d631-453b-a978-3e1eca7140b14048140040_2_1_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\b34c5c90-d631-453b-a978-3e1eca7140b14048140040_2_1_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b34c5c90-d631-453b-a978-3e1eca7140b14048140040_2_1_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b7f3ab87-2a4a-4655-bc23-e4772a0da451Screenshot 2023-06-28 191528.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\b7f3ab87-2a4a-4655-bc23-e4772a0da451Screenshot 2023-06-28 191528.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b7f3ab87-2a4a-4655-bc23-e4772a0da451Screenshot 2023-06-28 191528.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\bb6918e6-80a1-408e-97ef-e46ce4e48703calvin-klein-ck-free.1846.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\bb6918e6-80a1-408e-97ef-e46ce4e48703calvin-klein-ck-free.1846.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\bb6918e6-80a1-408e-97ef-e46ce4e48703calvin-klein-ck-free.1846.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\browsers\chrome.png))">
       <SourceType>Package</SourceType>
       <SourceId>AviaPlus</SourceId>
@@ -240,6 +976,150 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\browsers\safari.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c0571661-41ce-4bfe-9ec5-1efcb759a715DC_201906_2731_MediumMocha_Glass_A1_HL_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\c0571661-41ce-4bfe-9ec5-1efcb759a715DC_201906_2731_MediumMocha_Glass_A1_HL_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c0571661-41ce-4bfe-9ec5-1efcb759a715DC_201906_2731_MediumMocha_Glass_A1_HL_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ca30aa93-51f7-47ff-acaf-ea672bfea320Screenshot 2023-06-28 183736.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\ca30aa93-51f7-47ff-acaf-ea672bfea320Screenshot 2023-06-28 183736.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ca30aa93-51f7-47ff-acaf-ea672bfea320Screenshot 2023-06-28 183736.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\cb4f99d6-b2bb-4a46-9cf1-d89727f042a2Header_MediumFrozenFantaBlueRaspberry_Glass_832x472-1_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\cb4f99d6-b2bb-4a46-9cf1-d89727f042a2Header_MediumFrozenFantaBlueRaspberry_Glass_832x472-1_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\cb4f99d6-b2bb-4a46-9cf1-d89727f042a2Header_MediumFrozenFantaBlueRaspberry_Glass_832x472-1_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ce1dd5f5-e6e9-4ed2-8c5f-9429629c1b99Screenshot 2023-06-28 183736.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\ce1dd5f5-e6e9-4ed2-8c5f-9429629c1b99Screenshot 2023-06-28 183736.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ce1dd5f5-e6e9-4ed2-8c5f-9429629c1b99Screenshot 2023-06-28 183736.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d3a15575-94a9-469b-9104-80fc413d5f6bmulti-active-face-care-set.0764.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\d3a15575-94a9-469b-9104-80fc413d5f6bmulti-active-face-care-set.0764.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d3a15575-94a9-469b-9104-80fc413d5f6bmulti-active-face-care-set.0764.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d4d2ed7e-9cca-46f6-8369-a31d279fce67-loreal-true-match-foundation-beige.8220.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\d4d2ed7e-9cca-46f6-8369-a31d279fce67-loreal-true-match-foundation-beige.8220.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d4d2ed7e-9cca-46f6-8369-a31d279fce67-loreal-true-match-foundation-beige.8220.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d60f49c3-2381-4edd-b40c-f528c544560a8715323800_2_6_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\d60f49c3-2381-4edd-b40c-f528c544560a8715323800_2_6_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d60f49c3-2381-4edd-b40c-f528c544560a8715323800_2_6_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d6d35a47-b534-42a0-895c-0c4f40938608rouge-volupte-shine-lipstick-duo-set.5457.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\d6d35a47-b534-42a0-895c-0c4f40938608rouge-volupte-shine-lipstick-duo-set.5457.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\d6d35a47-b534-42a0-895c-0c4f40938608rouge-volupte-shine-lipstick-duo-set.5457.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ddbe4b9a-ebee-47fd-88c1-d2a295e126198711333733_2_6_8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\ddbe4b9a-ebee-47fd-88c1-d2a295e126198711333733_2_6_8.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ddbe4b9a-ebee-47fd-88c1-d2a295e126198711333733_2_6_8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\dinersclub.png))">
       <SourceType>Package</SourceType>
       <SourceId>AviaPlus</SourceId>
@@ -272,6 +1152,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\discover.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\e3511f40-3e0e-405d-918f-8add87bbb736DC_202002_0004_DoubleCheeseburger_Alt_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\e3511f40-3e0e-405d-918f-8add87bbb736DC_202002_0004_DoubleCheeseburger_Alt_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\e3511f40-3e0e-405d-918f-8add87bbb736DC_202002_0004_DoubleCheeseburger_Alt_832x472_product-header-desktop.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\example-image-50.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AviaPlus</SourceId>
@@ -303,6 +1199,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\example-image.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f0316c6a-ecec-4def-a4d8-8f662d05e873ferrero-rocher.6832.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\f0316c6a-ecec-4def-a4d8-8f662d05e873ferrero-rocher.6832.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f0316c6a-ecec-4def-a4d8-8f662d05e873ferrero-rocher.6832.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f244f1b5-4c66-4115-be19-177a9da2dd87Screenshot 2023-06-28 184906.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\f244f1b5-4c66-4115-be19-177a9da2dd87Screenshot 2023-06-28 184906.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f244f1b5-4c66-4115-be19-177a9da2dd87Screenshot 2023-06-28 184906.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f322b040-640b-4ddc-a19f-6b44d9ccd3e0Screenshot 2023-06-28 190322.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\f322b040-640b-4ddc-a19f-6b44d9ccd3e0Screenshot 2023-06-28 190322.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f322b040-640b-4ddc-a19f-6b44d9ccd3e0Screenshot 2023-06-28 190322.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f4005ad1-20e4-48f4-a179-85e9d16a0b12Screenshot 2023-06-28 222144.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\f4005ad1-20e4-48f4-a179-85e9d16a0b12Screenshot 2023-06-28 222144.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f4005ad1-20e4-48f4-a179-85e9d16a0b12Screenshot 2023-06-28 222144.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f655adb6-8caf-4e69-b1b9-fc96c299cb31Screenshot 2023-06-28 192130.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\f655adb6-8caf-4e69-b1b9-fc96c299cb31Screenshot 2023-06-28 192130.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\f655adb6-8caf-4e69-b1b9-fc96c299cb31Screenshot 2023-06-28 192130.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\fc25a1cd-d166-4a74-b8bf-5e309336ed47DC_202112_0521_MediumCoke_Glass_832x472_product-header-desktop.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>AviaPlus</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AviaPlus</BasePath>
+      <RelativePath>assets\img\fc25a1cd-d166-4a74-b8bf-5e309336ed47DC_202112_0521_MediumCoke_Glass_832x472_product-header-desktop.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\fc25a1cd-d166-4a74-b8bf-5e309336ed47DC_202112_0521_MediumCoke_Glass_832x472_product-header-desktop.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\jcb.png))">
       <SourceType>Package</SourceType>

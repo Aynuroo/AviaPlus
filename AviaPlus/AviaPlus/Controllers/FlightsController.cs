@@ -1,12 +1,15 @@
 ﻿using AviaPlus.DAL;
 using AviaPlus.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using static AviaPlus.Helpers.Helper;
 
 namespace AviaPlus.Controllers
 {
+    //[Authorize(Roles = "Admin,ConManager")]
     public class FlightsController : Controller
     {
         private readonly AppDbContext _db;
@@ -37,7 +40,6 @@ namespace AviaPlus.Controllers
 
         public async Task<IActionResult> Add(Flight flight)
         {
-            
             await _db.Flights.AddAsync(flight);
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");

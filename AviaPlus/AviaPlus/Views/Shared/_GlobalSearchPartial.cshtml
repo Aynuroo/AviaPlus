@@ -1,0 +1,175 @@
+﻿@model GlobalSearchVM
+<ul id="mySearchList" style="max-height: 1000px; overflow-y:auto; background-color:white; color:black">
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Flights</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Flights.Count != 0)
+    {
+        @foreach (Flight flight in Model.Flights)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px;justify-content:center">
+                <a>@flight.Departure</a>
+            </li>
+        }
+    }
+    else
+    {
+            <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class ="text-center">-------------------------------------</li>
+    <li class="text-center">List Tickets</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Tickets.Count != 0)
+    {
+        @foreach (Ticket ticket in Model.Tickets)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px;justify-content:center">
+                <a>@ticket.FullName</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Perfumeries</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Perfumeries.Count != 0)
+    {
+        @foreach (Perfumery perfumery in Model.Perfumeries)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@perfumery.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@perfumery.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Cosmetics</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Cosmetics.Count != 0)
+    {
+        @foreach (Cosmetic cosmetic in Model.Cosmetics)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@cosmetic.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@cosmetic.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Spirits</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Spirits.Count != 0)
+    {
+        @foreach (Spirit spirit in Model.Spirits)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@spirit.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@spirit.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Gourmet Foods</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.GourmetFoods.Count != 0)
+    {
+        @foreach (GourmetFood gourmetFood in Model.GourmetFoods)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@gourmetFood.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@gourmetFood.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Foods</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Foods.Count != 0)
+    {
+        @foreach (Food food in Model.Foods)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@food.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@food.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Beverages</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Beverages.Count != 0)
+    {
+        @foreach (Beverage beverage in Model.Beverages)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@beverage.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@beverage.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Jewelry</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Jewelries.Count != 0)
+    {
+        @foreach (Jewelry jewelry in Model.Jewelries)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@jewelry.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@jewelry.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+    <li class="text-center">-------------------------------------</li>
+    <li class="text-center">List Clothes</li>
+    <li class="text-center">-------------------------------------</li>
+    @if (Model.Clothes.Count != 0)
+    {
+        @foreach (Clothes clothes in Model.Clothes)
+        {
+            <li style="display:flex;align-items:center;padding:8px 3px">
+                <img src="~/assets/img/@clothes.Image" style="width:60px;height:60px;object-fit:cover;margin-right:15px" />
+                <a>@clothes.Name</a>
+            </li>
+        }
+    }
+    else
+    {
+        <li class="text-danger text-center" style="font-weight:600;padding-top:30px">Not Found</li>
+    }
+</ul>
+
+
+
+

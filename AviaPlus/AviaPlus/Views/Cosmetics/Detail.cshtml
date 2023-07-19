@@ -1,0 +1,39 @@
+﻿@model Cosmetic
+<h5><b>Cosmetic Detail</b></h5>
+<p> </p>
+<p>
+    <h7>
+        <b>Image:</b>
+
+        <div class="product-item">
+            <div class="product-image" style="display:flex;">
+                <img alt="image" src="~/assets/img/@Model.Image" class="img-fluid">
+            </div>
+        </div>
+
+    </h7>
+</p>
+<p><h7><b>Name:</b> @Model.Name</h7></p>
+<p><h7><b>Brand:</b> @Model.Brand</h7></p>
+<p><h7><b>Volume:</b> @Model.Volume</h7></p>
+<p><h7><b>Packing:</b> @Model.Packing</h7></p>
+<p><h7><b>Gender:</b> @Model.Gender</h7></p>
+<p><h7><b>Makeup:</b> @Model.Makeup</h7></p>
+<p><h7><b>Age:</b> @Model.Age</h7></p>
+<p><h7><b>Skin Type:</b> @Model.SkinType</h7></p>
+<p><h7><b>Price ($):</b> @Model.Price</h7></p>
+<p><h7><b>Quantity:</b> @Model.Quantity</h7></p>
+<p>
+    <h7>
+        <b>Status:</b> @if (Model.IsCancelled)
+        {
+            <a>Exhausted</a>
+        }
+        else
+        {
+            <a>Available</a>
+        }
+    </h7>
+</p>
+
+<a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>

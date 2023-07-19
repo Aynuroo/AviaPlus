@@ -26,8 +26,15 @@ using AviaPlus.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\USER\OneDrive\İş masası\AviaPlus\AviaPlus\AviaPlus\Views\_ViewImports.cshtml"
+using AviaPlus.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7d4a5419c07c1f258ac617f7d439bfecd37ca715", @"/Views/Tickets/Detail.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c33613544ffe5d463bad1b610d78816586a27449", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2705eaa6d8887b8c4c89056a7c9b84bf19b1963b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Tickets_Detail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Ticket>
     #nullable disable
@@ -91,7 +98,7 @@ using AviaPlus.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</h7></p>\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7d4a5419c07c1f258ac617f7d439bfecd37ca7154985", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7d4a5419c07c1f258ac617f7d439bfecd37ca7155179", async() => {
                 WriteLiteral("Go Back");
             }
             );

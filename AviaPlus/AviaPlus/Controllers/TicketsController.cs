@@ -1,12 +1,15 @@
 ﻿using AviaPlus.DAL;
 using AviaPlus.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using static AviaPlus.Helpers.Helper;
 
 namespace AviaPlus.Controllers
 {
+    //[Authorize(Roles = "Admin,ConManager")]
     public class TicketsController : Controller
     {
         private readonly AppDbContext _db;

@@ -1,0 +1,64 @@
+﻿@model Spirit
+<div class="col-12">
+    <div class="card">
+        <form method="post" enctype="multipart/form-data">
+            <div class="card-header">
+                <h4>Add Spirit</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Photo"></label>
+                    <input accept="image/*" asp-for="Photo" class="form-control" id="basic-default-fullname">
+                    <span class="text-danger" asp-validation-for="Photo"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Brand">Brand</label>
+                    <input asp-for="Brand" class="form-control">
+                    <span class="text-danger" asp-validation-for="Brand"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Volume">Volume</label>
+                    <input asp-for="Volume" class="form-control">
+                    <span class="text-danger" asp-validation-for="Volume"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Packing">Packing</label>
+                    <input asp-for="Packing" class="form-control">
+                    <span class="text-danger" asp-validation-for="Packing"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Manufacturer">Manufacturer</label>
+                    <input asp-for="Manufacturer" class="form-control">
+                    <span class="text-danger" asp-validation-for="Manufacturer"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DrinkType">Drink Type</label>
+                    <input asp-for="DrinkType" class="form-control">
+                    <span class="text-danger" asp-validation-for="DrinkType"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Quantity">Quantity</label>
+                    <input asp-for="Quantity" class="form-control">
+                    <span class="text-danger" asp-validation-for="Quantity"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price">Price ($)</label>
+                    <input asp-for="Price" class="form-control">
+                    <span class="text-danger" asp-validation-for="Price"></span>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button class="btn btn-primary">Submit</button>
+                <a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

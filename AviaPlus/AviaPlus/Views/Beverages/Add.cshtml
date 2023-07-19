@@ -1,0 +1,68 @@
+﻿@model Beverage
+<div class="col-12">
+    <div class="card">
+        <form method="post" enctype="multipart/form-data">
+            <div class="card-header">
+                <h4>Add Beverage</h4>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Photo"></label>
+                    <input accept="image/*" asp-for="Photo" class="form-control" id="basic-default-fullname">
+                    <span class="text-danger" asp-validation-for="Photo"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Brand">Brand</label>
+                    <input asp-for="Brand" class="form-control">
+                    <span class="text-danger" asp-validation-for="Brand"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Calories">Calories</label>
+                    <input asp-for="Calories" class="form-control">
+                    <span class="text-danger" asp-validation-for="Calories"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IsHot">Cold / Hot</label>
+                    <br/>
+                    <label>Cold</label>
+                    <input type="radio" value="false" style="margin-top:30px;margin-buttom:0px;width:35px;height:100%" asp-for="IsHot" placeholder="IsHot">
+                    <label>Hot</label>
+                    <input type="radio" value="true" style="margin-top:30px;margin-buttom:0px;width:35px;height:100%" asp-for="IsHot" placeholder="IsHot">
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label asp-for="Packing">Packing</label>
+                    <input asp-for="Packing" class="form-control">
+                    <span class="text-danger" asp-validation-for="Packing"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description">Description</label>
+                    <textarea asp-for="Description" class=" form-control"></textarea>
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Quantity">Quantity</label>
+                    <input asp-for="Quantity" class="form-control">
+                    <span class="text-danger" asp-validation-for="Quantity"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price">Price ($)</label>
+                    <input asp-for="Price" class="form-control">
+                    <span class="text-danger" asp-validation-for="Price"></span>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button class="btn btn-primary">Submit</button>
+                <a asp-action="Index" class="btn btn-secondary text-white">Go Back</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
